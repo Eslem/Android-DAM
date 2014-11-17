@@ -24,8 +24,16 @@
         </activity>
         <activity
             android:name=".AcercaDe"
-            android:theme="@android:style/Theme.Dialog"
-            android:label="@string/title_activity_acerca_de" >
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Prefrencias"
+            android:label="Preferencias" >
+        </activity>
+        <activity
+            android:name=".Puntuaciones"
+            android:label="@string/title_activity_puntuaciones" >
         </activity>
     </application>
 

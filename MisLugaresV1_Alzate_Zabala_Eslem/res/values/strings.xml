@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mis Lugares</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="accion_mostrar">Mostrar Lugares</string>
+    <string name="accion_preferencias">Preferencias1</string>
+    <string name="accion_acerca_de">Acerca de</string>
+    <string name="accion_salir">Salir</string>
+    <string name="accion_settings">Setings</string>
+    <string name="title_activity_edicion_lugar">EdicionLugarActivity</string>
+
+</resources>

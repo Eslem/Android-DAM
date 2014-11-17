@@ -15,6 +15,10 @@ public class Asteroides extends Activity {
 
 	Button bAcercaDe;
 	Button bSalir;
+	Button bPreferencias;
+	Button bPuntuaciones;
+
+	public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +29,26 @@ public class Asteroides extends Activity {
 
 		bAcercaDe = (Button) findViewById(R.id.button3);
 		bSalir = (Button) findViewById(R.id.button4);
+		bPreferencias = (Button) findViewById(R.id.button2);
+		bPuntuaciones = (Button) findViewById(R.id.button5);
+		
+		bPuntuaciones.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				lanzarPuntuaciones(null);
+			}
+		});
+
+		bPreferencias.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				lanzarpreferencias(null);
+			}
+		});
 
 		bAcercaDe.setOnClickListener(new OnClickListener() {
 			@Override
@@ -50,6 +74,17 @@ public class Asteroides extends Activity {
 
 	}
 
+	public void lanzarpreferencias(View view) {
+		Intent intent = new Intent(this, Prefrencias.class);
+		startActivity(intent);
+
+	}
+
+	public void lanzarPuntuaciones(View view) {
+		Intent i = new Intent(this, Puntuaciones.class);
+		startActivity(i);
+	}
+
 	public void salir(View view) {
 		finish();
 	}
@@ -57,37 +92,37 @@ public class Asteroides extends Activity {
 	@Override
 	protected void onStart() {
 		super.onStart();
-		Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	protected void onPause() {
-		Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show();
 		super.onPause();
 	}
 
 	@Override
 	protected void onStop() {
 		super.onStop();
-		Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	protected void onRestart() {
 		super.onRestart();
-		Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
 	}
 
 	@Override
@@ -104,7 +139,13 @@ public class Asteroides extends Activity {
 		case R.id.acercaDe:
 			lanzarAcercaDe(null);
 			break;
+
+		case R.id.config:
+			lanzarpreferencias(null);
+			break;
+
 		}
+
 		return true;
 	}
 
