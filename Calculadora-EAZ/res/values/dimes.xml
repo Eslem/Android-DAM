@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tamanyoEtiqueta1">34sp</dimen>
+    <dimen name="tamanyoEtiqueta2">24sp</dimen>
+    <dimen name="tamanyoBoton">24sp</dimen>
+    <dimen name="tamanyoEtiqueta3">24sp</dimen>
+
+</resources>

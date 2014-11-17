@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello	World,	Calculadora!</string>
+    <string name="app_name">Calculadora</string>
+    <string name="contenidoEtiqueta1">Calculadora de EAZ</string>
+    <string name="contenidoEtiqueta2">Pulse	para empezar a calcular</string>
+    <string name="contenidoEtiqueta3">Resultado</string>
+
+</resources>

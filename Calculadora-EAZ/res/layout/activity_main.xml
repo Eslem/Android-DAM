@@ -1,0 +1,205 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:stretchColumns="*"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:background="@color/colorEtiqueta1"
+            android:text="@string/contenidoEtiqueta1"
+            android:textColor="@color/colorFuenteEtiquetas"
+            android:textSize="@dimen/tamanyoEtiqueta1" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/operations"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:text="@string/contenidoEtiqueta2"
+            android:textColor="@color/colorFuenteEtiquetas"
+            android:textSize="@dimen/tamanyoEtiqueta2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:background="@color/colorEtiqueta3"
+            android:text="@string/contenidoEtiqueta3"
+            android:textColor="@color/colorFuenteEtiquetas"
+            android:textSize="@dimen/tamanyoEtiqueta3" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:onClick="operation"
+            android:text="="
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="operation"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="operation"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:onClick="operation"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:onClick="numberClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:onClick="cClick"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:onClick="operation"
+            android:textColor="@color/colorFuenteBoton"
+            android:textSize="@dimen/tamanyoBoton" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:src="@drawable/ic_launcher" />
+    </TableRow>
+
+</TableLayout>

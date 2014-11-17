@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorFondo">#CCFFFF</color>
+    <color name="colorFuenteEtiquetas">#000000</color>
+    <color name="colorEtiqueta1">#dd9999</color>
+    <color name="colorEtiqueta3">#dd88aa</color>
+    <color name="colorFuenteBoton">#000000</color>
+</resources>
