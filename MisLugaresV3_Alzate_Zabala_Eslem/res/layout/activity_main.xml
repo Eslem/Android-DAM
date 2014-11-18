@@ -8,12 +8,12 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <TextView
+        style="@style/EstiloTexto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/values"
-        style="@style/EstiloTexto"
         android:textSize="@dimen/titulo" />
 
     <TextView
@@ -29,6 +29,7 @@
         style="@style/EstiloBotones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="lanzarVistaLugar"
         android:text="@string/accion_mostrar"
         android:textSize="@dimen/boton" />
 

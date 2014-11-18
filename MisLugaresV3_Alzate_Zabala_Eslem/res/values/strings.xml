@@ -10,4 +10,6 @@
     <string name="accion_settings">Settings</string>
     <string name="title_activity_edicion_lugar">EdicionLugarActivity</string>
     <string name="values">Default</string>
+    <string name="accion_guardar">Save</string>
+    <string name="accion_cancelar">Cancel</string>
 </resources>

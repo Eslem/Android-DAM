@@ -8,6 +8,8 @@
     <string name="accion_acerca_de">Acerca de</string>
     <string name="accion_salir">Salir</string>
     <string name="accion_settings">Configuracion</string>
+    <string name="accion_guardar">Guardar</string>
+    <string name="accion_cancelar">Cancelar</string>
     <string name="title_activity_edicion_lugar">EdicionLugarActivity</string>
 
 </resources>
