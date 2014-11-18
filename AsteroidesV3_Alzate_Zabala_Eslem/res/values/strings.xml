@@ -7,9 +7,11 @@
     <string name="Arrancar">Play</string>
     <string name="Configurar">Settings</string>
     <string name="Acercade">About</string>
+    <string name="Puntuaciones">Score</string>
     <string name="Salir">Exit</string>
     <string name="tituloAplicacion">Asteroids</string>
     <string name="values">Default</string>
     <string name="title_activity_acerca_de">AcercaDe</string>
+    <string name="title_activity_puntuaciones">Puntuaciones</string>
 
 </resources>

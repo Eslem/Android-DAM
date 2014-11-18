@@ -43,13 +43,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Acercade" />
-
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Puntuaciones" />
+            
+        </TableRow>
+        
+        <TableRow >
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_span="2"
                 android:text="@string/Salir" />
         </TableRow>
+        
     </TableLayout>
 
 </LinearLayout>
