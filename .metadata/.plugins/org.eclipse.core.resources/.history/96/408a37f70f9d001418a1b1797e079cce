@@ -1,0 +1,16 @@
+package com.example.dibujarab;
+
+import android.content.Context;
+import android.graphics.Paint;
+import android.view.View;
+
+public class SpecialView extends View{
+	
+	private Paint painter = new Paint();
+
+	public SpecialView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+}

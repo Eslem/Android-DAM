@@ -2,4 +2,35 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.example.holamundo.R.id"/>
 <fullyQualifiedTypeName name="org.pmdn.ejercicioguiado1.R.id"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="com.example.threads.R.id"/>
+<fullyQualifiedTypeName name="android.os.SystemClock"/>
+<fullyQualifiedTypeName name="com.example.threads.MyThread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="com.example.threads.MainActivity"/>
+<fullyQualifiedTypeName name="android.app.ProgressDialog"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnCancelListener"/>
+<fullyQualifiedTypeName name="com.example.threads.MainActivity.MyTask"/>
+<fullyQualifiedTypeName name="android.view.KeyEvent"/>
+<fullyQualifiedTypeName name="com.example.touchscreen.R.id"/>
+<fullyQualifiedTypeName name="android.gesture.GestureLibrary"/>
+<fullyQualifiedTypeName name="android.gesture.GestureLibraries"/>
+<fullyQualifiedTypeName name="com.example.gestures.R.raw"/>
+<fullyQualifiedTypeName name="android.gesture.GestureOverlayView"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.view.MotionEvent"/>
+<fullyQualifiedTypeName name="android.hardware.SensorEventListener"/>
+<fullyQualifiedTypeName name="android.hardware.SensorManager"/>
+<fullyQualifiedTypeName name="android.widget.ShareActionProvider"/>
+<fullyQualifiedTypeName name="android.content.SharedPreferences"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.ShapeDrawable"/>
+<fullyQualifiedTypeName name="android.graphics.drawable.shapes.RectShape"/>
+<fullyQualifiedTypeName name="org.example.asteroides.R.drawable"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.example.dibujarab.SpecialView"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap.CompressFormat"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
 </qualifiedTypeNameHistroy>

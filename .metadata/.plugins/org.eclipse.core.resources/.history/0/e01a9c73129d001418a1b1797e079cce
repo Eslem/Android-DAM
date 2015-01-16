@@ -1,0 +1,24 @@
+package com.example.dibujarab;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class MainActivity extends Activity {
+
+	SpecialView specialView;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		specialView= new SpecialView(this);
+		specialView.setDrawingCacheEnabled(true);
+		setContentView(R.layout.activity_main);
+	}
+	
+	
+	private void save(){
+		
+	}
+}

@@ -1,0 +1,33 @@
+package com.example.dibujarab;
+
+import java.io.File;
+import java.io.FileOutputStream;
+
+import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.Bitmap.CompressFormat;
+import android.os.Bundle;
+import android.os.Environment;
+
+public class MainActivity extends Activity {
+
+	SpecialView specialView;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		specialView = new SpecialView(this);
+		specialView.setDrawingCacheEnabled(true);
+		setContentView(specialView);
+	}
+
+	private void save(){
+		File path = Environment.getExternalStoragePublicDirectory(
+	            Environment.DIRECTORY_PICTURES);
+		File file = new File(path, "dibujarImg.jpg");
+		FileOutputStream fos = new FileOutputStream(file);
+		
+		Bitmap img = specialView.getDrawingCache();
+		img.compress(CompressFormat.JPEG, 95, fos)
+	}
+}

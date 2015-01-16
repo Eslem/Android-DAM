@@ -1,0 +1,18 @@
+package com.example.threads;
+
+public class MyThread extends Thread{
+	MainActivity mainActivity;
+	
+	
+	public MyThread(MainActivity mainAc){
+		this.mainActivity=mainAc;
+	}
+	
+	@Override
+	public void run(){
+		for(int x=0; x<10; x++){
+			mainActivity.append("Number"+x);
+		}
+	}
+
+}

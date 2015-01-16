@@ -1,0 +1,16 @@
+package com.example.threads;
+
+public class MyThread extends Thread{
+	MainActivity mainActivity;
+	
+	
+	public MyThread(MainActivity mainAc){
+		this.mainActivity=mainAc;
+	}
+	
+	@Override
+	public void run(){
+		
+	}
+
+}
